@@ -3,7 +3,7 @@ import { assets, menuLinks } from '../assets/assets'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { useAppContext } from '../context/AppContext'
 import toast from 'react-hot-toast'
-import { motion, AnimatePresence } from 'motion/react'
+import {  AnimatePresence } from 'motion/react'
 
 const Navbar = () => {
   const { setShowLogin, user, logout, isOwner, axios, setIsOwner } = useAppContext()
